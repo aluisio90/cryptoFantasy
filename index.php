@@ -23,7 +23,7 @@ do {
 }while($alice->get_excange() == $bob->get_excange() || $bob->get_excange() <= 0 || $alice->get_excange() <= 0 || $bob->get_excange() == $bob->get_segreto() || $alice->get_excange() == $alice->get_segreto());
 
 
-    print_r($alice);
+    
 ?>
 
 <html lang="en">
